@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/clampsemver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clamp structured JSON semver payloads without a heavyweight toolkit.",
+  "bin": {
+    "clampsemver": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/clampsemver.git"
+  },
+  "homepage": "https://theworker02.github.io/clampsemver/",
+  "keywords": [
+    "clamp",
+    "semver",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
